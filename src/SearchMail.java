@@ -34,7 +34,7 @@ public class SearchMail {
 	
 	static int search(List<String> mails,String mailToSearch) {
 		
-		int index = mails.indexOf(mailToSearch);
+		int index = mails.indexOf(mailToSearch.toLowerCase());
 		
 		return index;
 		
